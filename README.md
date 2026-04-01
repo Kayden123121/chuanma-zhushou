@@ -253,6 +253,19 @@ server/
 
 ---
 
+## 推送到 GitHub
+
+本地已初始化 Git 并完成首次提交。在 GitHub 新建空仓库后，在项目根目录执行（将 `你的用户名` 与仓库名换成实际值）：
+
+```bash
+git remote add origin https://github.com/你的用户名/仓库名.git
+git push -u origin main
+```
+
+若使用 SSH：`git remote add origin git@github.com:你的用户名/仓库名.git`。
+
+---
+
 ## 致谢
 
 感谢 Jon Chan 提供的 [Mahjong Dataset](https://universe.roboflow.com/jon-chan-gnsoa/mahjong-baq4s)。该数据集发布于 Roboflow Universe (2026-01-26)。特别感谢其提供的开源数据支持了我们的 CV 模型训练。
