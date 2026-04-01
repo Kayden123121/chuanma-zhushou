@@ -1,0 +1,63 @@
+# Built-in Android
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Python / Server
+server/venv/
+server/.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
+.idea/
+.trae/
+.kotlin/
+.vscode/
+
+# Node / misc extracted apps (非本项目核心，勿提交)
+node_modules/
+**/node_modules/
+QClaw_app_extracted/
+*.tsbuildinfo
+
+# Local IDE / agent
+.claude/
+
+# Secrets (do not commit)
+*.p12
+
+# Project Specific
+server/static/uploads/
+temp_aar/
+server/realtimesst.log
+server/STT样本-d472b87b-aa99-4edb-ae9d-32bb0c1e8c43_1769074773309.wav
+static/uploads/test_session_001_1769078221627.wav
+roboflow_cache/
+temp_mahjong_tiles/
+update_icons.py
+ARMahjongAssistIcon2.png
